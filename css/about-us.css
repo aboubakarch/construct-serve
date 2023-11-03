@@ -1,0 +1,120 @@
+/* ================== */
+/*     ABOUT SEC      */
+/* ================== */
+
+.about-sec {
+  display: flex;
+  width: 80%;
+  padding: 0px 10%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.about-sec img {
+  width: 48%;
+  height: 500px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.about-sec__details {
+  width: 48%;
+}
+
+.text-highlight {
+  text-transform: uppercase;
+  font-size: 15px !important;
+}
+
+.about-sec__details h1 {
+  font-size: 46px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-sec__details_desc {
+  font-size: 16px;
+  color: rgb(10, 10, 10);
+  margin-top: 15px;
+}
+
+.details-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.details-grid p {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(10, 10, 10);
+}
+.details-grid p span {
+  font-size: 16px;
+  color: rgb(75, 75, 75);
+}
+
+/* ================== */
+/*   ABOUT SEC END    */
+/* ================== */
+
+/* ================== */
+/*      TEAM SEC      */
+/* ================== */
+
+.team-sec {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 0px 10%;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.team-list {
+  width: calc(100% - 20px);
+  display: flex;
+  gap: 40px;
+}
+
+.team-list__card {
+  width: 25%;
+}
+
+.team-list__card:hover > img {
+  width: 300px;
+  height: 300px;
+}
+
+.team-list__card img {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  object-fit: cover;
+  transition: all 0.7s;
+}
+
+.team-list__card h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(10, 10, 10);
+}
+
+.team-desig {
+  font-size: 13px;
+  color: rgb(75, 75, 75);
+  margin-bottom: 15px;
+}
+
+.team-card-desc {
+  font-size: 16px;
+  color: rgb(10, 10, 10);
+  text-align: justify;
+}
+
+/* ================== */
+/*    TEAM SEC END    */
+/* ================== */
