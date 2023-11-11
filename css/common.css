@@ -10,6 +10,10 @@
   font-weight: 500 !important;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .sec__heading {
   font-size: 60px;
   font-weight: 700;
@@ -40,6 +44,10 @@
   align-items: center;
   padding: 0px 10%;
   justify-content: space-between;
+}
+
+.header__menu-icon {
+  display: none;
 }
 
 .header__logo {
@@ -347,4 +355,76 @@ s .social-icons {
 
 /* ==================== */
 /*  FOOTER SECTION END  */
+/* ==================== */
+
+/* ==================== */
+/*     MEDIA QUERIES    */
+/* ==================== */
+
+@media screen and (max-width: 1081px) {
+  .header__menus,
+  .header__contact {
+    display: none;
+  }
+  .header__menu-icon {
+    display: block;
+    height: 50px;
+    width: 210px;
+    object-fit: contain;
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+  .hero-section__image,
+  .list__card,
+  .list__item,
+  .footer__item-1 {
+    width: 100%;
+  }
+  .hero-section__content {
+    width: 100%;
+    height: 450px;
+  }
+  .list__card p {
+    font-size: 16px;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .footer__item-2 {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .mb-menus {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: #eb1c24;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mb-menus a {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 70px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .sec__heading {
+    font-size: 40px;
+  }
+}
+
+/* ==================== */
+/*   MEDIA QUERIES END  */
 /* ==================== */
